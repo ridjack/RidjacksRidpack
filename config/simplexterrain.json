@@ -5,7 +5,7 @@
   "threadedNoiseGeneration": true,
   "deleteLakes": false,
   "generateVanillaCaves": true,
-  "simplexNetherGeneration": true,
+  "simplexNetherGeneration": false,
   "noiseGenerationThreads": 2,
   "noiseGenerator": "SIMPLEX",
   "postProcessors": [],
