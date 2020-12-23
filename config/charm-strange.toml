@@ -1,0 +1,81 @@
+"Excavation Enabled" = true
+"Foundations Enabled" = true
+"LegendaryItems Enabled" = true
+#Underground ruins with different themes according to the biome.
+"Ruins Enabled" = true
+#Fast travel to points of interest in your world by using an Ender Pearl.
+"Runestones Enabled" = true
+#Craftable tablets that can teleport you to a point of interest or the location of a lodestone.
+"RunicAltars Enabled" = true
+#Runic fragments are loot items that provide co-ordinates to rare structures.
+"RunicFragments Enabled" = true
+#Scrolls provide quest instructions and scrollkeeper villagers give rewards for completed scrolls.
+"Scrolls Enabled" = true
+#Circles of stone columns. Runestones may appear at the top of a column.
+"StoneCircles Enabled" = true
+#With a Totem of Preserving in your inventory, your items will be held in the totem when you die.
+"TotemOfPreserving Enabled" = true
+#A Totem of Wandering lets you quickly teleport to a location in your travel journal.
+"TotemOfWandering Enabled" = true
+"TravelJournals Enabled" = true
+
+[LegendaryItems]
+	#Number of levels above the maximum that legendary enchantments can use.
+	"Additional enchantment levels" = 3
+
+[Ruins]
+	#Size of the generated ruins. For reference, villages are 6.
+	"Ruin size" = 7
+	#Specify which ruins are generated. If this list is left empty, the Ruins module will be disabled.
+	"Generated ruins" = ["castle", "roguelike", "vaults"]
+
+[Runestones]
+	#Maximum number of blocks that you will be teleported via a runestone.
+	"Travel distance in blocks" = 4000
+	#Number of seconds of regeneration and slow-fall when teleporting through a runestone.
+	"Travel protection time" = 10
+	#If true, looking at a runestone whose location has already been discovered by another player lets you immediately learn that rune.
+	"Learn from other players" = true
+	#Structures that runestones may teleport you to. The list is weighted with more likely structures at the top.
+	"Available structures" = ["strange:spawn_point", "strange:stone_circle", "minecraft:village", "minecraft:pillager_outpost", "minecraft:desert_pyramid", "minecraft:jungle_pyramid", "minecraft:mineshaft", "minecraft:ocean_ruin", "minecraft:swamp_hut", "minecraft:igloo", "minecraft:ruined_portal"]
+	#Biomes that runestones may teleport you to. The list is weighted with more likely biomes at the top.
+	"Available biomes" = ["minecraft:desert_lakes", "minecraft:flower_forest", "minecraft:giant_tree_taiga", "minecraft:badlands", "minecraft:bamboo_jungle", "minecraft:ice_spikes"]
+
+[RunicFragments]
+	#Structures that runic fragments may describe. The list is weighted with more likely structures at the top.
+	"Runic fragment destinations" = ["strange:foundation", "strange:ruin"]
+	#Chance (out of 1.0) of a runic fragment appearing in rare ruin loot (or stronghold loot if ruins are disabled).
+	"Loot chance" = 0.5
+
+[Scrollkeepers]
+	#Chance (out of 1.0) of the player receiving Bad Omen when handing in a scroll.
+	"Bad Omen chance" = 0.05
+
+[Scrolls]
+	#If true, scroll quests will use the built-in definitions. Use false to limit quests to datapacks.
+	"Use built-in scroll quests" = true
+	#If true, normal scrolls will be added to pillager loot and legendary scrolls to ancient rubble.
+	"Add scrolls to loot" = true
+	#The language key to use when displaying quest instructions.
+	"Scroll quest language" = "en"
+	#If true, the player who has an exploration quest will receive a visual and audible hint when reaching the location to start exploring.
+	"Exploration hint" = true
+
+[StoneCircles]
+	#Biomes that stone circles may generate in.
+	"Available biomes" = ["minecraft:plains", "minecraft:desert", "minecraft:savanna", "minecraft:swamp", "minecraft:sunflower_plains", "minecraft:flower_forest", "minecraft:snowy_tundra"]
+	#Distance between stone circles. As a guide, ruined portals are 25.
+	"Distance between stone circles" = 24
+
+[TotemOfPreserving]
+	#If true, your items will always drop as a totem even if you don't have one in your inventory.
+	"Grave Mode" = true
+
+[TotemOfWandering]
+	#Chance (out of 1.0) of a wandering trader dropping a Totem of Wandering when killed by the player.
+	"Drop chance" = 0.25
+
+[TravelJournals]
+	#If true, the coordinates and dimension are shown on the update entry screen.
+	"Show coordinates" = true
+
