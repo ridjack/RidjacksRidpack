@@ -71,7 +71,7 @@
 #Show maps in tooltips.
 "MapTooltips Enabled" = true
 #Adds decoration and more ores to mineshafts.
-"MineshaftImprovements Enabled" = true
+"MineshaftImprovements Enabled" = false
 #Configure how often mob sounds are played.
 "MobSoundCulling Enabled" = true
 #Mooblooms are cow-like mobs that come in a variety of flower types. They spawn flowers where they walk and can be milked for suspicious stew.

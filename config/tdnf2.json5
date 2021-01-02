@@ -1,6 +1,6 @@
 {
 	// When do trees break? (NO_SUPPORT, LOG_BREAK, or USE_TOOL)
-	"fallCondition": "NO_SUPPORT",
+	"fallCondition": "USE_TOOL",
 	// Leaves decay instantly. Ignored (leaves decay) when keepLogsIntact is true.
 	"fastLeafDecay": true,
 	// Log blocks move to the ground instead of dropping as items. Can be laggy. Leaves alwasy break when true.

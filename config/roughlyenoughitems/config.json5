@@ -1,9 +1,17 @@
 { 
 	"basics": { 
 		"favorites": [ 
-],
+			{ 
+				"type": "roughlyenoughitems:entry_stack",
+				"data": { 
+					"id": "minecraft:arrow",
+					"Count": 127,
+					"type": "item"
+				}
+			}
+		],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": true,
 		"keyBindings": { 
 			"recipeKeybind": { 
