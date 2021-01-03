@@ -70,6 +70,8 @@
 [TotemOfPreserving]
 	#If true, your items will always drop as a totem even if you don't have one in your inventory.
 	"Grave Mode" = true
+	#If true, the totem will preserve the player's experience and restore when broken.
+	"Preserve XP" = false
 
 [TotemOfWandering]
 	#Chance (out of 1.0) of a wandering trader dropping a Totem of Wandering when killed by the player.

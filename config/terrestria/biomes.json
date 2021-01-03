@@ -61,7 +61,7 @@
     },
     "rainbow_rainforest": {
       "chance": 0.33,
-      "enable": true
+      "enable": false
     },
     "volcanic_island": {
       "chance": 0.1,
