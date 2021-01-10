@@ -4,7 +4,7 @@
 			{ 
 				"type": "roughlyenoughitems:entry_stack",
 				"data": { 
-					"id": "minecraft:arrow",
+					"id": "minecraft:rotten_flesh",
 					"Count": 127,
 					"type": "item"
 				}
@@ -12,31 +12,18 @@
 			{ 
 				"type": "roughlyenoughitems:entry_stack",
 				"data": { 
-					"id": "minecraft:nether_gold_ore",
+					"id": "minecraft:shears",
 					"Count": 127,
+					"tag": { 
+						"Damage": 94
+					},
 					"type": "item"
 				}
 			},
 			{ 
 				"type": "roughlyenoughitems:entry_stack",
 				"data": { 
-					"id": "minecraft:polished_andesite",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{ 
-				"type": "roughlyenoughitems:entry_stack",
-				"data": { 
-					"id": "minecraft:birch_planks",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{ 
-				"type": "roughlyenoughitems:entry_stack",
-				"data": { 
-					"id": "minecraft:compass",
+					"id": "minecraft:obsidian",
 					"Count": 127,
 					"type": "item"
 				}

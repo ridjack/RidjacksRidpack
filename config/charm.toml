@@ -251,6 +251,10 @@
 	"Green Dye" = true
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
 	"Soul Torch" = true
+	#If true, adds a shapeless recipe for bread.
+	Bread = true
+	#If true, adds a shapeless recipe for paper.
+	Paper = true
 
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
