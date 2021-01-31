@@ -10,7 +10,7 @@
       "enable": true
     },
     "lush_redwood_forest": {
-      "weight": 1.0,
+      "weight": 0.5,
       "enable": true
     },
     "dunes": {
@@ -30,7 +30,7 @@
       "enable": true
     },
     "redwood_forest": {
-      "weight": 1.0,
+      "weight": 0.5,
       "enable": true
     },
     "outback": {
