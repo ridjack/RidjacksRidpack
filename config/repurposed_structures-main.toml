@@ -53,8 +53,8 @@ giantBouldersPerChunk = 0.5
 
 [RSMainConfig.jungleFortress]
 jungleFortressMaxChunkDistance = 32
-addJungleFortressToModdedBiomes = true
-blacklistedFortressBiomes = ""
+addJungleFortressToModdedBiomes = false
+blacklistedFortressBiomes = "minecraft:jungle,minecraft:jungle_edge,minecraft:jungle_hills,minecraft:bamboo_jungle,minecraft:bamboo_jungle_hills,minecraft:modified_jungle,minecraft:modified_jungle_edge"
 silverfishSpawnrate = 0.5
 lootChests = true
 
@@ -93,17 +93,17 @@ addMineshaftsToModdedBiomes = true
 blacklistedMineshaftBiomes = ""
 
 [RSMineshaftsConfig.spawnrate]
-birchMineshaftSpawnrate = 40
-jungleMineshaftSpawnrate = 40
-desertMineshaftSpawnrate = 40
-stoneMineshaftSpawnrate = 40
-savannaMineshaftSpawnrate = 40
-icyMineshaftSpawnrate = 40
-oceanMineshaftSpawnrate = 40
-taigaMineshaftSpawnrate = 40
-swampAndDarkForestMineshaftSpawnrate = 40
-endMineshaftSpawnrate = 60
-netherMineshaftSpawnrate = 40
+birchMineshaftSpawnrate = 0
+jungleMineshaftSpawnrate = 0
+desertMineshaftSpawnrate = 0
+stoneMineshaftSpawnrate = 0
+savannaMineshaftSpawnrate = 0
+icyMineshaftSpawnrate = 0
+oceanMineshaftSpawnrate = 0
+taigaMineshaftSpawnrate = 0
+swampAndDarkForestMineshaftSpawnrate = 0
+endMineshaftSpawnrate = 0
+netherMineshaftSpawnrate = 0
 
 [RSMineshaftsConfig.minHeight]
 birchMineshaftMinHeight = 8
