@@ -1,7 +1,6 @@
 "Excavation Enabled" = true
-"Foundations Enabled" = true
 "LegendaryItems Enabled" = true
-#Underground ruins with different themes according to the biome.
+#Ruined structures with different themes according to the biome.
 "Ruins Enabled" = true
 #Fast travel to points of interest in your world by using an Ender Pearl.
 "Runestones Enabled" = true
@@ -24,10 +23,12 @@
 	"Additional enchantment levels" = 3
 
 [Ruins]
-	#Size of the generated ruins. For reference, villages are 6.
-	"Ruin size" = 7
-	#Specify which ruins are generated. If this list is left empty, the Ruins module will be disabled.
-	"Generated ruins" = ["castle", "roguelike", "vaults"]
+	#Size of the generated surface ruins.
+	"Surface ruin size" = 4
+	#Size of the generated underground ruins.
+	"Underground ruin size" = 7
+	#Size of the generated foundation ruins.
+	"Foundation ruin size" = 5
 
 [Runestones]
 	#Maximum number of blocks that you will be teleported via a runestone.
@@ -42,9 +43,7 @@
 	"Available biomes" = ["minecraft:desert_lakes", "minecraft:flower_forest", "minecraft:giant_tree_taiga", "minecraft:badlands", "minecraft:bamboo_jungle", "minecraft:ice_spikes"]
 
 [RunicFragments]
-	#Structures that runic fragments may describe. The list is weighted with more likely structures at the top.
-	"Runic fragment destinations" = ["strange:foundation", "strange:ruin"]
-	#Chance (out of 1.0) of a runic fragment appearing in rare ruin loot (or stronghold loot if ruins are disabled).
+	#Chance (out of 1.0) of a runic fragment appearing in rubble (or stronghold loot if excavation is disabled).
 	"Loot chance" = 0.5
 
 [Scrollkeepers]
